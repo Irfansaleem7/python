@@ -16,9 +16,10 @@ class accounts():
     name:str
     accounts_number:int
     accountstypse: str
+    id: int
 
-user1 = accounts("ahmed", 123456, "current")
-user2 = accounts("rizwan", 456789, "saving")
+user1 = accounts("ahmed", 123456, "current", 1)
+user2 = accounts("rizwan", 456789, "saving", 2)
 
 print(user1)
 print(user2)
